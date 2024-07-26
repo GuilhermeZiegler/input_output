@@ -23,3 +23,7 @@ python-required = ">=3.6"
 
 [project.urls]
 "Homepage" = "https://github.com/GuilhermeZiegler/input_output"
+
+[project.dependencies]
+numpy = "^1.21.0"
+pandas = "^1.3.0"
