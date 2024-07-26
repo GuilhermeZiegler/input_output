@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "input_output"
+version = "0.1.0"
+description = "The Leontief Input-Output Matrix Package offers a comprehensive suite of tools for analyzing and managing economic input-output models based on Leontief's framework. It is designed to facilitate the study of inter-industry relationships and economic interactions by leveraging matrix algebra.\n\nKey Features:\n\n- Matrix Construction and Manipulation: Easily create, modify, and analyze Leontief input-output matrices. Supports various operations including addition, multiplication, inversion, and decomposition.\n- Economic Analysis: Perform detailed analyses using input-output tables to calculate metrics such as direct and total output requirements, industry outputs, and impact multipliers.\n- Model Simulation: Simulate economic scenarios to assess the impact of demand or supply changes on the economy. Includes shock analysis and forecasting capabilities.\n- Data Integration: Import and export matrices in multiple formats, ensuring compatibility with other data sources and models.\n- Visualization: Generate visualizations to understand economic relationships and matrix structures, including heatmaps, network diagrams, and impact charts.\n- Reporting: Produce detailed reports on matrix analyses and economic insights, with templates for professional documentation.\n\nApplications:\n\n- Economic Impact Assessment\n- Input-Output Analysis\n- Economic Forecasting\n- Industry and Sectoral Analysis\n- Policy Evaluation\n\nThis package is ideal for economists, researchers, and analysts who wish to explore and utilize the insights from Leontief's input-output model to better understand and manage economic systems."
+
+authors = [
+    { 
+        "name": "Guilherme Ziegler Trintinalia", 
+        "email": "guitziegler@gmail.com" 
+    },
+    { 
+        "name": "Alex Albuquerque Rodrigues", 
+        "email": "albuquerquerodriguesalex402@gmail.com" 
+    }
+
+]readme = "README.md"
+license = { text = "MIT" }
+python-required = ">=3.6"
+
+[project.urls]
+"Homepage" = "https://github.com/GuilhermeZiegler/input_output"
